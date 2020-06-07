@@ -5,27 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
 
+    <h3> Тестова форма </h3>
+    <form name="form1" method="post" action="script.php">
+        <p> <span> Текстове поле: </span> <input type="text" name="textfield"> </p>
+        <p> Поле введення пароля: <input type="password" name="pswfield"> </p>
+        <p> Приховане поле hidden<input name="hidden" type="hidden" id="hidden" value="Приховане_значення"> </p>
+        <hr size="1">
+        <p> Незалежні перемикачі (checkbox): </p>
+        <p> <input type="checkbox" name="checkbox1" value="1">Варіант перший
+            <input type="checkbox" name="checkbox2" value="1">Варіант другий <input type="checkbox" name="checkbox3"
+                value="1" checked>Варіант третій (за замовчуванням) </p>
+        <hr size="1">
+        <p> Залежні перемикачі (radio): </p>
+        <p> <input name="radiobutton" type="radio" value="yes">Так <input name="radiobutton" type="radio" value="no">Ні
+        </p>
+        <hr size="1">
+        <p> Багаторядкове текстове поле (textarea): </p>
+        <p> <textarea name="textarea" cols="40" rows="10"> Текст за умовчанням </textarea> </p>
+        <hr size="1">
+        <p> Список з єдиним вибором: </p>
+        <p> <select name=day_s size=1>
+                <option value=1> понеділок </option>
+                <option value=2> вівторок </option>
+                <option value=3 selected> середа </option>
+                <option value=4> четвер </option>
+                <option value=5> п'ятниця </option>
+                <option value=6> субота </option>
+                <option value=7> неділя </option>
+            </select> </p>
+        <p> Список із множинним вибором (multiple): </p>
+        <p> <select name=day_m[] size=7 multiple>
+                <option value=1 selected> понеділок </option>
+                <option value=2> вівторок </option>
+                <option value=3> середа </option>
+                <option value=4> четвер </option>
+                <option value=5> п'ятниця </option>
+                <option value=6> субота </option>
+                <option value=7> неділя </option>
+            </select> </p>
+        <hr size="1">
+        <p> <input type="submit" value="Відіслати форму"> <input type="reset" value="Очистити форму"> </p>
+    </form>
 
 
-    <div class="menu">
-        <div class="left">
-            <div class="textBox">CSS Nav
-            </div>
-        </div>
-      <div class="right">
-          <div class="right1"> <div class="rightgo">Our Work</div> 
 
-          </div>
-          <div class="right2"><div class="rightgo2">About</div> </div>
-          <div class="right3"><div class="rightgo3">Careerrs</div> </div>
-          <div class="right4"><div class="rightgo4">Contact</div> </div>
-      </div>
-    </div>
+
+
+
+
 
 
 
