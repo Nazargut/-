@@ -3,106 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html;
-charset=windows-1251">
-    <title> Лабораторна робота No1</title>
-
-    </style>
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
 
-
-
-
-    <br>
-
-    <body leftmargin=2 topmargin=1 bgcolor="Silver" text="Maroon">
-        <p align="right">
-            <b>напівжирні символи</b>, <i>курсив</i>, <u>підкреслені
-                символами</u>,
-            <b><i><u>комбінація</u></i></b>
-            <br>X<sup>2</sup>+X<sup>4</sup>=Y<sub>i</sub>
+    <h3> Тестова форма </h3>
+    <form name="form1" method="post" action="script.php">
+        <p> <span> Текстове поле: </span> <input type="text" name="textfield"> </p>
+        <p> Поле введення пароля: <input type="password" name="pswfield"> </p>
+        <p> Приховане поле hidden<input name="hidden" type="hidden" id="hidden" value="Приховане_значення"> </p>
+        <hr size="1">
+        <p> Незалежні перемикачі (checkbox): </p>
+        <p> <input type="checkbox" name="checkbox1" value="1">Варіант перший
+            <input type="checkbox" name="checkbox2" value="1">Варіант другий <input type="checkbox" name="checkbox3"
+                value="1" checked>Варіант третій (за замовчуванням) </p>
+        <hr size="1">
+        <p> Залежні перемикачі (radio): </p>
+        <p> <input name="radiobutton" type="radio" value="yes">Так <input name="radiobutton" type="radio" value="no">Ні
         </p>
-        <hr width="100%" size="2" noshade>
-        <h1>Заголовок 1</h1>
-        <h2 align="center">Заголовок 2. Вирівнювання "по центру"</h2>
-        <h3 align="right">Заголовок 3. Вирівнювання "по правому краю"
-        </h3>
-        <h4>Заголовок 4</h4>
-        <h5>Заголовок 5</h5>
-        <h6>Заголовок 6</h6>
-        <hr width="70%" size="3" noshade>
-        <p align="center">
-            <br>
-            <font face="Arial" size="7" color="Red">Перший фрагмент
-                тексту</font>
-            <br>
-            <font face="GothicG" size="3" color="Red">Другий фрагмент
-                тексту</font>
-            <br>
-            <font face="Verdana" size="1" color="Red">Третій фрагмент
-                тексту</font>
-        </p>
-        <h2 align=center>Зміна розмірів рисунків</h2>
-        <img src="1.jpg">
-        <img src="1.jpg" alt="" width="260" height="220">
-        <img src="1.jpg" alt="" width="130" height="110">
-        <img src="1.jpg" alt="" width="300" height="250">
-
-        <h2 align=center>Границя рисунків</h2>
-        <img src="1.jpg" alt="" width="130" height="110">
-        <img src="1.jpg" alt="" width="130" height="110" border="1">
-        <img src="1.jpg" alt="" width="130" height="110" border="3">
-
-        <h2 align=center>Вирівнювання рисунків відноснотексту</h2>
-        <h3 align=center>Вирівнювання рисунків відносно верхнього межею</h3>
-        <p>
-            <img src="1.jpg" width="130" height="110" border="3" alt="вага">
-            <img src="1.jpg" width="65" height="55" border="3" alt="вага" align="top">
-        </p>
-
-        <p>
-            <img src="1.jpg" width="130" height="110" border="3" alt="вага">
-            <img src="1.jpg" width="65" height="55" border="3" alt="вага" align="texttop">
-        </p>
-        <h3>Вирівнювання рисунків відносно середини рядка</h3>
-
-        </p>
-        <p>
-
-            <img src="1.jpg" width="130" height="110" border="3" alt="вага">
-            <img src="1.jpg" width="65" height="55" border="3" alt="вага" align="adsmiddle">
-        </p>
-
-        <h3 align=center>вирівнювання рисунків відносно нижнього краю рядка</h3>
-        <p>
-            <img src="1.jpg" width="130" height="110" border="3" alt="вага">
-            <img src="1.jpg" width="65" height="55" border="3" alt="вага" align="bottom">
-        </p>
-        <p>
-            <img src="1.jpg" width="130" height="110" border="3" alt="вага">
-            <img src="1.jpg" width="65" height="55" border="3" alt="вага" align="absbottom">
-        </p>
-
-        <h3 align=center>Плаваючі рисунки</h3>
-        <p>
-            <img src="1.jpg" width="65" height="55" border="3" alt="вага" align="left">
-        </p>
-        <br><br><br><br><br>
-        <p>
-            <img img src="1.jpg" width="130" height="110" border="3" alt="вага align=" right">
-        </p>
-
-        <h2 align="center">відокремлення рисунків від тексту</h2>
-        <img src="1.jpg" width="130" height="110" border="3" alt="вага" hspace="20" vspace="20" align="top" alt="вага">
-        <br>
-        <img src="1.jpg" width="130" height="110" border="3"  hspace="1" vspace="1" align="top" alt="вага">
-        
-        <h2>Використання мініатюр</h2>
-<img src="1.jpg" alt="вага" lowsrc="2.gif" width="130" height="110" border="3">
+        <hr size="1">
+        <p> Багаторядкове текстове поле (textarea): </p>
+        <p> <textarea name="textarea" cols="40" rows="10"> Текст за умовчанням </textarea> </p>
+        <hr size="1">
+        <p> Список з єдиним вибором: </p>
+        <p> <select name=day_s size=1>
+                <option value=1> понеділок </option>
+                <option value=2> вівторок </option>
+                <option value=3 selected> середа </option>
+                <option value=4> четвер </option>
+                <option value=5> п'ятниця </option>
+                <option value=6> субота </option>
+                <option value=7> неділя </option>
+            </select> </p>
+        <p> Список із множинним вибором (multiple): </p>
+        <p> <select name=day_m[] size=7 multiple>
+                <option value=1 selected> понеділок </option>
+                <option value=2> вівторок </option>
+                <option value=3> середа </option>
+                <option value=4> четвер </option>
+                <option value=5> п'ятниця </option>
+                <option value=6> субота </option>
+                <option value=7> неділя </option>
+            </select> </p>
+        <hr size="1">
+        <p> <input type="submit" value="Відіслати форму"> <input type="reset" value="Очистити форму"> </p>
+    </form>
 
 
 
@@ -111,6 +58,12 @@ charset=windows-1251">
 
 
 
-    </body>
+
+
+
+
+
+
+</body>
 
 </html>
