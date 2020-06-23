@@ -1,0 +1,39 @@
+body {
+	background: rgb(67, 204, 97);
+	color: white;
+}
+p {
+	font-family: "Times roman";
+	font-size: 25px;
+}
+header {
+	text-align: center;
+	font-family: "Times roman";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+}
+section {
+	background-image: url(fon.jpg);
+	background-repeat: repeat-x;
+	color: white;
+
+}
+h1 {
+	text-align: center;
+}
+hr {
+	background-color: white;
+	height: 4px;
+}
+h2 {
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+a {
+	color: blue;
+	
+}
+
